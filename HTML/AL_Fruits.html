@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Add Fruits</title>
+</head>
+<body>
+<img src="../Images/SH_Order.jpg" width="1024" height="270" border="0" usemap="#map1">
+<map name="map1">
+<area shape="rect" coords="885,17,1014,43" href="../index.html">
+<area shape="rect" coords="27,18,207,45" href="Seller Home.html">
+<area shape="rect" coords="243,18,350,45" href="Update.html"></map>
+
+<br><br><br><br><br><br><br><br>
+<div align = "left">
+<form action="../PHP/AddListing.php" method="post">
+    Name:<input type="text" name="pname" value="" size="25" maxlength="50" /><br><br>
+    Quantity:<input type="number" name="qnty" value="" size="25" maxlength="50" /><br><br>
+	Price:<input type="number" name="mrp" value="" size="25" maxlength="50" /><br><br>
+	MF Date(yyyy-mm-dd): <input type="text" name="dat" value="" size="25" maxlength="50" /><br><br>
+	<input type = "hidden" name="sec_id" value="102">
+    <input type="submit" name="submit" value="Add Listing" />
+</form>
+
+</body>
+</html>

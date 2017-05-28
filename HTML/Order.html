@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Order</title>
+</head>
+<body>
+<img src="../Images/Order.jpg" width="1024" height="270" border="0" usemap="#map1">
+<map name="map1">
+<area shape="rect" coords="885,17,1014,43" href="../index.html">
+<area shape="rect" coords="19,18,187,42" href="Categories.html"></map>
+
+<br><br><br><br>
+
+<form action="../PHP/TakeOrder.php" method="post">
+    Product Name: <input type="text" name="pname" value="" size="25" maxlength="50" /><br><br>
+    Quantity: <input type="number" name="qnt" value="" size="25" maxlength="50" /><br><br>
+	Email: <input type="text" name="cmail" value="" size="25" maxlength="50" /><br><br>
+    <input type="submit" name="submit" value="Place Order" />
+</form>
+
+
+</body>
+</html>
